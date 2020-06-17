@@ -7,7 +7,7 @@ set -e
 eval "$(cat .env <(echo) <(declare -x))"
 
 # build
-yarn docs:build
+yarn build
 
 # navigate into the build output directory
 cd docs/.vuepress/dist
