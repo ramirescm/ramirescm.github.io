@@ -2,8 +2,8 @@ const { description } = require('../../package')
 const { nav, sideBar } = require("vuepress-bar")();
 
 module.exports = {
-  base: '',
-  publicPath: '',
+  //base: '',
+  //publicPath: '',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
